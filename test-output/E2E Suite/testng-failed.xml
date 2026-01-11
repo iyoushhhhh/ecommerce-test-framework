@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [E2E Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="End to End Checkout Only(failed)">
+    <classes>
+      <class name="com.ayush.automation.tests.LoginTest">
+        <methods>
+          <include name="endToEndCheckoutFlow"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ayush.automation.tests.LoginTest -->
+    </classes>
+  </test> <!-- End to End Checkout Only(failed) -->
+</suite> <!-- Failed suite [E2E Suite] -->
