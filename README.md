@@ -73,9 +73,3 @@ src
 │   │   └── listeners
 │   └── resources
 │       └── config.properties
-
-
-## ▶️ How to Run Tests
-
-Run via Maven (Command Line) 
-**mvn clean test -DsuiteXmlFile=testng_smoke.xml**
