@@ -1,3 +1,12 @@
+![Java](https://img.shields.io/badge/Java-8+-orange)
+![Maven](https://img.shields.io/badge/Maven-Build-blue)
+![Selenium](https://img.shields.io/badge/Selenium-WebDriver-green)
+![TestNG](https://img.shields.io/badge/TestNG-Framework-red)
+![CI](https://img.shields.io/badge/CI-Jenkins-brightgreen)
+![Status](https://img.shields.io/badge/Build-Passing-success)
+
+
+
 # E-Commerce Website Automation Framework
 
 This project is a Selenium WebDriver-based automation framework built to validate end-to-end user workflows of an e-commerce web application.  
@@ -58,6 +67,24 @@ The framework includes the following test suites:
 
 ---
 
+###  Jenkins Pipeline
+
+The project includes a Jenkinsfile for pipeline-as-code implementation.
+
+Pipeline features:
+- Parameterized build for dynamic suite selection
+- Maven-based test execution
+- Automated HTML report publishing
+- GitHub-based source control integration
+
+---
+
+## 📸 Sample Report
+
+Extent Report generated after execution, showing test steps, status, and screenshots on failure.
+
+---
+
 ## 📁 Project Structure
 
 ```text
@@ -73,3 +100,5 @@ src
 │   │   └── listeners
 │   └── resources
 │       └── config.properties
+
+
